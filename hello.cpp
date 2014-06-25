@@ -28,6 +28,19 @@ void signed_vs_unsigned() {
 	std::cout << "Unsigned: (0+1)=" << u+1 << " (0-1)=" << u-1 << std::endl;
 }
 
+void bitwise() {
+	unsigned int i = 1;
+	std::cout << std::endl << "Bitwise" << std::endl << "-------------------------" << std::endl;
+	std::cout << "i>>1 = " << (i>>1) << std::endl;
+	std::cout << "i<<1 = " << (i<<1) << std::endl;
+	std::cout << "i<<2 = " << (i<<2) << std::endl;
+	std::cout << "i<<3 = " << (i<<3) << std::endl;
+	std::cout << "i<<4 = " << (i<<4) << std::endl;
+	std::cout << "i&0x00000000 = " << (i<<0x00000000) << std::endl;
+	std::cout << "i|0x00000000 = " << (i|0x00000000) << std::endl;
+	std::cout << "i^0x00000003 = " << (i|0x00000003) << std::endl;
+}
+
 int main(void) {
 	int age;
 	age = 31;
@@ -39,6 +52,7 @@ int main(void) {
 	print_fav_numbers(numbers);
 	print_sizes();
 	signed_vs_unsigned();
+	bitwise();
 
 	return 0;
 }
