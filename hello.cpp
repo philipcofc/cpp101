@@ -41,18 +41,18 @@ void bitwise() {
 	std::cout << "i^0x00000003 = " << (i|0x00000003) << std::endl;
 }
 
-int main(void) {
-	int age;
-	age = 31;
-	
-	int numbers[14] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43};
-
-	std::cout << "Hello! Chad is " << age << std::endl;
-
-	print_fav_numbers(numbers);
-	print_sizes();
-	signed_vs_unsigned();
-	bitwise();
-
-	return 0;
-}
+//int main(void) {
+//	int age;
+//	age = 31;
+//
+//	int numbers[14] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43};
+//
+//	std::cout << "Hello! Chad is " << age << std::endl;
+//
+//	print_fav_numbers(numbers);
+//	print_sizes();
+//	signed_vs_unsigned();
+//	bitwise();
+//
+//	return 0;
+//}
