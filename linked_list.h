@@ -8,12 +8,9 @@
 #ifndef LINKED_LIST_H_
 #define LINKED_LIST_H_
 
-struct point {
+struct node {
 	int x;
-	int y;
-	int z;
 	struct node *next;
-	struct node *prev;
 };
 
 #endif /* LINKED_LIST_H_ */
