@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 
-#include "linked_list.h"
+#include "point.h"
 
 using namespace std;
 

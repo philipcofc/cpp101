@@ -1,5 +1,5 @@
 /*
- * linked_list.h
+ * point.h
  *
  *  Created on: Jul 12, 2014
  *      Author: ccravens
